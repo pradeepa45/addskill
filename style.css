@@ -1,0 +1,174 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Katibeh">
+<link href="https://fonts.googleapis.com/css2?family=Harmattan" rel="stylesheet">
+            .body{
+                margin: -10px;
+                font-family: Harmattan;
+                font-size: 25px;
+            }
+            img{
+                position: relative;
+                width: 200px;
+                height: 200px;
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-left: 80px;
+                border-radius: 50%;
+                float: right;
+            }
+            .welcome-box{
+                background-color: 	hsl(180, 100%, 30%);
+                text-align: center;
+                margin-top:-10px;
+                margin-left: -10px;
+                margin-right: -10px;
+                padding: 65px;
+                color: white;
+                font-size: 42px;
+                font-weight: lighter;
+                font-family: Katibeh;
+            }
+            .bar{
+                background-color: 	hsl(180, 100%, 25%);
+                position: relative;
+                top: 0;
+                height: 37px;
+                font-family: Katibeh;
+                margin-left: -10px;
+                margin-right: -10px;
+                font-size: 32px;
+                font-weight: lighter;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-bottom: 3px;
+            }
+            .fbar{
+                margin: -5px;
+                background-color: hsl(180, 100%, 30%);
+                width: 98%;
+                height: fit-content;
+                padding: 20px;
+                font-family: Katibeh;
+                font-size: 25px;
+                line-height: 8px;
+            }
+            
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            .flex-cont{
+                display: flex;
+            }
+            a:hover{
+                background-color: hsl(180, 100%, 15%);
+            }
+            .text-box{
+                background-color: hsl(180, 50%, 40%);
+                color: white;
+                padding: 10px;
+                position: relative;
+                top: auto;
+                margin-left: 20%;
+                margin-right: 20%;
+                margin-top: 10%;
+                width: auto;
+                margin-bottom: 5%;
+                line-height: 1em;
+                font-family: Harmattan;
+                font-size: 22px;
+                z-index: -1;
+            }
+            .am-box{
+                background-color: hsl(180, 50%, 40%);
+                width: auto;
+                color: white;
+                padding:55px;
+                margin-top: 5%;
+                margin-bottom: 10%;
+                margin-left: 10%;
+                margin-right: 10%;
+                line-height: 1.25em;
+                font-family: Harmattan;
+                font-size: 28px;
+            }
+            p{
+                margin-left: auto;
+            }
+            .content{
+                padding: 30px;
+            }
+            h2{
+                margin-left: 35px;
+            }
+            .right{
+                float: right;
+            }
+            .nor-font{
+                font-family: Harmattan;
+            }
+            .sticky{
+                position: fixed;
+                top: 0;
+                padding-left: 5 px;
+                margin-left: -5px;
+                margin-right: 2px;
+                width: 99%;
+            }
+            .sticky + .content{
+                margin-right: 2px;
+                margin-left: -5px;
+            }
+            h3{
+                
+                color: white;
+            }
+            .an-class{
+                line-height: 12px;
+            }
+            input{
+                margin-top: 200px;
+                width: 300px;
+                height: 55x;
+                margin: 10px;
+                padding: 5px;
+                border-radius: 15px;
+                background-color: hsl(180, 100%, 25%)
+            }
+            textarea::placeholder{
+                font-family: Harmattan;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+            input::placeholder{
+                font-size: 16px;
+                color: white;
+                font-family: Harmattan;
+                text-align: center;
+            }
+            textarea{
+                margin-top: 50px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: auto;;
+                float: right;
+                width: 250px;
+                height: 170px;
+                color: white;
+                border-radius: 10px;
+                background-color: hsl(180, 100%, 25%)
+            }
+            button{
+                margin-left: 49%;
+                margin-right: 49%px;
+                margin-top: 30px;
+                margin-bottom: 5px;
+                background-color: hsl(180, 100%, 25%);
+                height: 35px;
+                color: white;
+                width: 80px;
+                border-radius: 45%;
+                border-color: hsl(180, 100%, 25%);
+                font-family: Harmattan;
+                font-size: 20px;
+            }
